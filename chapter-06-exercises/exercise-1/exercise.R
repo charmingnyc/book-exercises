@@ -46,4 +46,3 @@ round_sum <- round(raw_sum, digits = 1)
 
 
 # Which is bigger, `round_sum` or `sum_round`? (use the `max()` function!)
-
