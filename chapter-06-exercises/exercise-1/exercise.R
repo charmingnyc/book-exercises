@@ -5,18 +5,19 @@ my_name <- "Name"
 
 # Create a variable `name_length` that holds how many letters (including spaces)
 # are in your name (use the `nchar()` function)
-nchar(my_name)
+name_length = nchar(my_name)
 
 # Print the number of letters in your name
-
+print(name_length)
 
 # Create a variable `now_doing` that is your name followed by "is programming!" 
 # (use the `paste()` function)
 
+now_doing <- paste(my_name, sep = " ", "is programming!", collapse = NULL)
 
 # Make the `now_doing` variable upper case
 
-
+print(toupper(now_doing))
 ### Bonus
 
 # Pick two of your favorite numbers (between 1 and 100) and assign them to 
