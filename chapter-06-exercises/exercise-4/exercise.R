@@ -1,6 +1,6 @@
 # Exercise 4: functions and conditionals
 
-# Define a function `is_twice_as_long` that takes in two character strings, and 
+# Define a function `is_twice_as_long` that takes in two character strings, and
 # returns whether or not (e.g., a boolean) the length of one argument is greater
 # than or equal to twice the length of the other.
 # Hint: compare the length difference to the length of the smaller string
@@ -19,6 +19,5 @@
 #   "Your strings are the same length!"
 
 
-# Call your `describe_difference` function by passing it different length strings
+# Call your `describe_difference` function by passing  different length strings
 # to confirm that it works. Make sure to check all 3 conditions1
-
