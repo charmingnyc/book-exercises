@@ -11,20 +11,20 @@ opp_scores <- c(27, 42, 3, 27)
 
 # Combine your two vectors into a dataframe called `games`
 games <- data.frame(sea_scores, opp_scores)
-print(games)
 
 # Create a new column "diff" that is the difference in points between the teams
 # Hint: recall the syntax for assigning new elements (which in this case will be
 # a vector) to a list!
-#diff <- 
+diff <- sea_scores - opp_scores
 
 # Create a new column "won" which is TRUE if the Seahawks won the game
-
+games$won <- ifelse(diff < 0, diff > 0, TRUE)
 
 # Create a vector of the opponent names corresponding to the games played
-
+opp_name <- c("Chiefs", "Rams", "Raiders", "Bills")
 
 # Assign your dataframe rownames of their opponents
-
+rownames(games) <- opp_name
 
 # View your data frame to see how it has changed!
+print(games)
