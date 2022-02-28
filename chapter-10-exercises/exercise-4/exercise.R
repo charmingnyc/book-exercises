@@ -4,14 +4,14 @@
 # file into a variable called `grants` using the `read.csv()`
 # Be sure to set your working directory in RStudio, and do NOT treat strings as 
 # factors!
-
+grants <- read.csv("data/gates_money.csv", stringsAsFactors = FALSE)
 
 # Use the View function to look at the loaded data
-
+# View(grants) # this Mac homebrew R no X11 support, CRAN version would, skip
 
 # Create a variable `organization` that contains the `organization` column of 
 # the dataset
-
+#organization <- 
 
 # Confirm that the "organization" column is a vector using the `is.vector()` 
 # function. 
