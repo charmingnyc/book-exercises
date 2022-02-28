@@ -22,8 +22,10 @@ print(makes)
 # Use the `unique()` function to determine how many different car manufacturers
 # are represented by the data set
 print(count(unique(makes)))
+length(unique(makes))
 
 # Filter the data set for vehicles manufactured in 1997
+cars_1997 <- vehicles[vehicles$year == 1997, ]
 
 
 # Arrange the 1997 cars by highway (`hwy`) gas milage
