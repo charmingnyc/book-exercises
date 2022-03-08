@@ -2,11 +2,13 @@
 
 # Load the httr and jsonlite libraries for accessing data
 # You can also load `dplyr` if you wish to use it
-
+library("httr")
+library("jsnlite")
+library("dplyr")
 
 # Create a variable base_uri that stores the base URI (as a string) for the 
 # Github API (https://api.github.com)
-
+api_str <- "https://api.github.com"
 
 # Under the "Repositories" category of the API documentation, find the endpoint 
 # that will list _repos in an organization_. Then create a variable named
