@@ -3,7 +3,7 @@
 # Load the httr and jsonlite libraries for accessing data
 # You can also load `dplyr` if you wish to use it
 library("httr")
-library("jsnlite")
+library("jsonlite")
 library("dplyr")
 
 # Create a variable base_uri that stores the base URI (as a string) for the 
